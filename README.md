@@ -28,14 +28,14 @@ let adapter = new SqlAdapter({
 ## Feature
 
 - [x] Auto create table
-- Auto alter table
+- [ ] Auto alter table
   - [x] add column
   - [ ] drop column
-- Auto convert unsupported data type (e.g array in sqlite)
+- [ ] Auto convert unsupported data type (e.g array in sqlite)
   - [ ] as string (WIP)
   - [ ] as json[] or jsonb[]
 - [x] Auto create timestamp (`created_at` and `updated_at`) in ISO format
-- Auto create relationship (Foreign Key, etc)
+- [ ] Auto create relationship (Foreign Key, etc)
   - [ ] 1:1
   - [ ] 1:M
 
