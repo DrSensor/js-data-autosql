@@ -31,13 +31,14 @@ let adapter = new SqlAdapter({
 - [ ] Auto alter table
   - [x] add column
   - [ ] drop column
-- [ ] Auto convert unsupported data type (e.g array in sqlite)
+- [ ] Auto convert unsupported data type (useful when store array in sqlite or db that not support array)
   - [ ] as string (WIP)
   - [ ] as json[] or jsonb[]
 - [x] Auto create timestamp (`created_at` and `updated_at`) in ISO format
 - [ ] Auto create relationship (Foreign Key, etc)
-  - [ ] 1:1
-  - [ ] 1:M
+  - [x] 1:1
+  - [x] 1:M
+- [ ] [Tested](https://github.com/js-data/js-data-adapter-tests)
 
 ## License
 [MIT](./LICENSE)

@@ -1,0 +1,18 @@
+{
+  "name": "js-data-autosql",
+  "version": "0.3.0",
+  "description": "workaround for enhancing js-data-sql",
+  "main": "index.js",
+  "repository": "git@github.com:DrSensor/js-data-autosql.git",
+  "author": "Fahmi Akbar Wildana <f.a.wildana@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "js-data-sql": "^1.0.1"
+  },
+  "peerDependencies": {
+    "js-data": "^3.0.1"
+  },
+  "devDependencies": {
+    "sqlite3": "^3.1.13"
+  }
+}
